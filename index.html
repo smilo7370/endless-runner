@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/biri/dist/biri.min.js"></script>
+
+	<title>Travelino Game</title>
+
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PushOnClick.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/scenes/Ban.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		body {
+			background: #000000;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		#game-division {
+			margin: 0px;
+			padding: 0px;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		canvas {
+			border: 1px solid black;
+		}
+	</style>
+
+</head>
+
+<body>
+	<script>
+		var game;
+		var detectDevice;
+		const gameName = "Travelino - ";
+		console.log(gameName,"V1.00");
+	</script>
+	<div id="game-division" style="background-color: #ffffff;"> </div>
+	<table width=100% height=100% border="0" id="splashPage">
+		<tr>
+			<td style="text-align: center; vertical-align: middle;">
+			</td>
+		</tr>
+	</table>
+	<script>
+		function init() {
+			getMobileOperatingSystem();
+		}
+		function getMobileOperatingSystem() {
+			var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+			if (/windows phone/i.test(userAgent)) {
+				detectDevice = "Windows";
+				console.log("Device: Windows");
+			} else if (/android/i.test(userAgent)) {
+				detectDevice = "Android";
+				console.log("Device: Android");
+				
+			} else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+				detectDevice = "IOS";
+				console.log("Device: IOS");
+				async function asyncCall() {
+				// Initialize the agent at application startup.
+				const fpPromise = import('https://openfpcdn.io/fingerprintjs/v3')
+					.then(FingerprintJS => FingerprintJS.load());
+
+				// Get the visitor identifier when you need it.
+				fpPromise
+					.then(fp => fp.get())
+					.then(result => {
+					// This is the visitor identifier:
+					const visitorId = result.visitorId;
+					console.log("Fingerprint ID: ", visitorId);
+					if(localStorage.getItem("setVisitorId") == null) {
+						localStorage.setItem("setVisitorId", visitorId);
+						if(localStorage.getItem("isPlayable")== null) {
+							localStorage.setItem("isPlayable", true);
+						}
+					}
+					});
+				}
+				asyncCall();
+			} else{
+				detectDevice = "Desktop"
+				console.log("Device: Desktop");
+				function resolveAfter2Seconds() {
+					return new Promise(resolve => {
+						setTimeout(() => {
+						resolve('resolved');
+						}, 2000);
+					});
+				}
+					
+				async function asyncCall() {
+					const uniqueId = await biri();
+					console.log("Fingerprint ID: ", uniqueId);
+					if(localStorage.getItem("setVisitorId") == null) {
+						localStorage.setItem("setVisitorId", uniqueId);
+					}
+					if(localStorage.getItem("isPlayable")== null) {
+						localStorage.setItem("isPlayable", true);
+					}
+				}
+				asyncCall();
+			}
+		}
+		window.onload = init();
+	</script>
+</body>
+
+</html>

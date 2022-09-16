@@ -1,0 +1,38 @@
+{
+    "components": [
+        {
+            "name": "PushOnClick",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "PreloadText",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "properties": []
+        },
+        {
+            "name": "idleAnimation",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.TileSprite",
+            "properties": [
+                {
+                    "name": "idlePlayer",
+                    "label": "idlePlayer",
+                    "tooltip": "idlePlayer",
+                    "defValue": "idle",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "animation-key"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

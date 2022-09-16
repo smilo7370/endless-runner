@@ -1,0 +1,186 @@
+{
+    "anims": [
+        {
+            "key": "idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Idle__000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Idle__009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "run",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Run__000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Run__009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "jump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Jump__000",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__001",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__002",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__003",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__004",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__005",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__006",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__007",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__008",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Jump__009",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

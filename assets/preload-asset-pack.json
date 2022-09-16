@@ -1,0 +1,33 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/timer/energybar.png",
+                "type": "image",
+                "key": "energybar"
+            },
+            {
+                "url": "assets/images/timer/energycontainer.png",
+                "type": "image",
+                "key": "energycontainer"
+            },
+            {
+                "url": "assets/images/platform/platform.png",
+                "type": "image",
+                "key": "platform"
+            },
+            {
+                "url": "assets/images/player/player.png",
+                "type": "image",
+                "key": "player"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

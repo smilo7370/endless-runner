@@ -1,0 +1,40 @@
+{
+    "id": "2ac5a4ee-0c08-4800-ae74-c2f802aed4cb",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Ban"
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "0aeb6ad1-be84-45f4-b043-4b1615e0ddd1",
+            "label": "text_1",
+            "components": [],
+            "x": 87.5,
+            "y": 279.619140625,
+            "text": "YOU ARE BANNED FOR LOSING!",
+            "fontSize": "40px",
+            "fontStyle": "bold"
+        },
+        {
+            "type": "Image",
+            "id": "ebe6aec3-da61-4b12-8247-7f674bd5a6a2",
+            "label": "platform",
+            "components": [],
+            "texture": {
+                "key": "platform"
+            },
+            "x": 400,
+            "y": 358
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

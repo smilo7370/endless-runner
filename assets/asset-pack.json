@@ -1,0 +1,183 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/platform/airplane.png",
+                "type": "image",
+                "key": "airplane"
+            },
+            {
+                "url": "assets/animations/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/idle/Idle__000.png",
+                "type": "image",
+                "key": "Idle__000"
+            },
+            {
+                "url": "assets/images/idle/Idle__001.png",
+                "type": "image",
+                "key": "Idle__001"
+            },
+            {
+                "url": "assets/images/idle/Idle__002.png",
+                "type": "image",
+                "key": "Idle__002"
+            },
+            {
+                "url": "assets/images/idle/Idle__003.png",
+                "type": "image",
+                "key": "Idle__003"
+            },
+            {
+                "url": "assets/images/idle/Idle__004.png",
+                "type": "image",
+                "key": "Idle__004"
+            },
+            {
+                "url": "assets/images/idle/Idle__005.png",
+                "type": "image",
+                "key": "Idle__005"
+            },
+            {
+                "url": "assets/images/idle/Idle__006.png",
+                "type": "image",
+                "key": "Idle__006"
+            },
+            {
+                "url": "assets/images/idle/Idle__007.png",
+                "type": "image",
+                "key": "Idle__007"
+            },
+            {
+                "url": "assets/images/idle/Idle__008.png",
+                "type": "image",
+                "key": "Idle__008"
+            },
+            {
+                "url": "assets/images/idle/Idle__009.png",
+                "type": "image",
+                "key": "Idle__009"
+            },
+            {
+                "url": "src/components/idleAnimation.js",
+                "type": "script",
+                "key": "idleAnimation"
+            },
+            {
+                "url": "assets/images/jump/Jump__000.png",
+                "type": "image",
+                "key": "Jump__000"
+            },
+            {
+                "url": "assets/images/jump/Jump__001.png",
+                "type": "image",
+                "key": "Jump__001"
+            },
+            {
+                "url": "assets/images/jump/Jump__002.png",
+                "type": "image",
+                "key": "Jump__002"
+            },
+            {
+                "url": "assets/images/jump/Jump__003.png",
+                "type": "image",
+                "key": "Jump__003"
+            },
+            {
+                "url": "assets/images/jump/Jump__004.png",
+                "type": "image",
+                "key": "Jump__004"
+            },
+            {
+                "url": "assets/images/jump/Jump__005.png",
+                "type": "image",
+                "key": "Jump__005"
+            },
+            {
+                "url": "assets/images/jump/Jump__006.png",
+                "type": "image",
+                "key": "Jump__006"
+            },
+            {
+                "url": "assets/images/jump/Jump__007.png",
+                "type": "image",
+                "key": "Jump__007"
+            },
+            {
+                "url": "assets/images/jump/Jump__008.png",
+                "type": "image",
+                "key": "Jump__008"
+            },
+            {
+                "url": "assets/images/jump/Jump__009.png",
+                "type": "image",
+                "key": "Jump__009"
+            },
+            {
+                "url": "assets/images/run/Run__000.png",
+                "type": "image",
+                "key": "Run__000"
+            },
+            {
+                "url": "assets/images/run/Run__001.png",
+                "type": "image",
+                "key": "Run__001"
+            },
+            {
+                "url": "assets/images/run/Run__002.png",
+                "type": "image",
+                "key": "Run__002"
+            },
+            {
+                "url": "assets/images/run/Run__003.png",
+                "type": "image",
+                "key": "Run__003"
+            },
+            {
+                "url": "assets/images/run/Run__004.png",
+                "type": "image",
+                "key": "Run__004"
+            },
+            {
+                "url": "assets/images/run/Run__005.png",
+                "type": "image",
+                "key": "Run__005"
+            },
+            {
+                "url": "assets/images/run/Run__006.png",
+                "type": "image",
+                "key": "Run__006"
+            },
+            {
+                "url": "assets/images/run/Run__007.png",
+                "type": "image",
+                "key": "Run__007"
+            },
+            {
+                "url": "assets/images/run/Run__008.png",
+                "type": "image",
+                "key": "Run__008"
+            },
+            {
+                "url": "assets/images/run/Run__009.png",
+                "type": "image",
+                "key": "Run__009"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
